@@ -1,6 +1,7 @@
 // Variable Overrides
 $font-family-sans-serif: "Overpass", Helvetica, Arial, sans-serif;
 $btn-border-radius:0 !important;
+$card-border-radius: 0 !important;
 $primary:#cc0000;
 $secondary:#08c0fc;
 $dark:#242527;
@@ -17,6 +18,7 @@ $text-muted: #838383;
 .card-title {
   color:$secondary;
   font-size:18px;
+  min-height:42px;
 }
 .btn-primary,
 .btn-secondary {
