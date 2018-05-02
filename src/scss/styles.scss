@@ -1,0 +1,50 @@
+// Variable Overrides
+$font-family-sans-serif: "Overpass", Helvetica, Arial, sans-serif;
+$btn-border-radius:0 !important;
+$primary:#cc0000;
+$secondary:#08c0fc;
+$dark:#242527;
+$text-muted: #838383;
+.container-fluid {
+}
+.hero {
+  background-image:url('/assets/transformation-red-bg.png');
+}
+
+.logo img {
+  width:140px;
+}
+.card-title {
+  color:$secondary;
+  font-size:18px;
+}
+.btn-primary,
+.btn-secondary {
+  min-width:192px;
+}
+.card {
+  -webkit-transition: all .25s;
+  transition: all .25s;
+  top:0;
+}
+.card:hover {
+    top: -20px;
+    -webkit-box-shadow: 0 20px 20px #b0b0b4;
+    box-shadow: 0 20px 20px #b0b0b4;
+}
+.openshift img {
+  max-width:200px;
+}
+.success-story {
+  background-image:url('/assets/success-story-bg.png');
+}
+.red-rule {
+  width:42px;
+  height:3px;
+  background-color:$primary;
+  margin:20px 0;
+}
+.quote-icon:before {
+  content:url('/assets/quotes.png');
+}
+@import "node_modules/bootstrap/scss/bootstrap";
