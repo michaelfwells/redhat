@@ -48,5 +48,7 @@ $text-muted: #838383;
 }
 .quote-icon:before {
   content:url('/assets/quotes.png');
+  margin-right:5px;
+  margin-left:-2px;
 }
 @import "node_modules/bootstrap/scss/bootstrap";

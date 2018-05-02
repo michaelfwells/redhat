@@ -36,7 +36,9 @@
   margin: 20px 0; }
 
 .quote-icon:before {
-  content: url("/assets/quotes.png"); }
+  content: url("/assets/quotes.png");
+  margin-right: 5px;
+  margin-left: -2px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
